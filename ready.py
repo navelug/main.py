@@ -6,7 +6,7 @@ import tkinter as tk
 import numpy
 import subprocess
 import json
-
+print("hello")
 model = load_model('model_NN_20_03_21.h5') # Load trained model
 
 cam = cv2.VideoCapture(0) # Open webcam
