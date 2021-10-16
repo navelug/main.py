@@ -10,7 +10,7 @@ print("hello")
 model = load_model('model_NN_20_03_21.h5') # Load trained model
 
 cam = cv2.VideoCapture(0) # Open webcam
-cv2.namedWindow("Hand Pose Classification")
+cv2.namedWindow("test")
 while True:
     ret, frame = cam.read()
     cv2.putText(frame, 'Preform sign & press SPACE key...', (25, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (2, 241, 93), 2, cv2.LINE_4)
